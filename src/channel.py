@@ -1,6 +1,5 @@
 import json
 from googleapiclient.discovery import build
-
 import os
 
 API_KEY: str = os.getenv("YT_API_KEY")
